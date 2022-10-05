@@ -1,0 +1,35 @@
+.sidebar{
+    background: #1e1e1e99;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 40px;
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+    z-index: 10;
+}
+
+.sidebar a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+.sidebar a i {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sidebar a i:hover {
+    background-color: red;
+}
+
+.sidebar-items {
+    padding: 20px 0;
+}
+
+.sidebar span {
+    display: none;
+}

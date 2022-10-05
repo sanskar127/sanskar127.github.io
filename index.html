@@ -1,29 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome To My Page</title>
-    <link rel="stylesheet" href="stylesheets/home.css" />
-    <link rel="stylesheet" href="stylesheets/navbar.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <!-- <li><a href="#">Concept</a></li> -->
-          <li><a href="#">About</a></li>
-        </ul>
 
-        <h2 class="logo">Bon<span>jour</span></h2>
-      </nav>
-    </header>
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <link rel="icon" type="image/jpg" href="images/logo.jpg">
+    <title>Welcome</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/interface.css">
+    <link rel="stylesheet" href="stylesheets/core.css">
+    <link rel="stylesheet" href="stylesheets/sidebar.css">
+    <link rel="stylesheet" href="stylesheets/icons.css">
+    <link rel="stylesheet" href="stylesheets/media-queries.css">
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/72b5eabdad.js" crossorigin="anonymous"></script>
+</head>
 
-    <div class="main-box">
-      <h1>This is Sanskar Pandey </h1>
-      <p>Currently Exploring and Learning Cool Stuffs Around The Internet</p>
+<body>
+
+    <div class="sidebar">
+        <div class="sidebar-items">
+            <a href="#"><i class="fa-solid fa-house"></i><span>Home</span></a>
+        </div>
+        <div class="sidebar-items">
+            <a href="#"><i class="fa-solid fa-info"></i><span>About</span></a>
+        </div>
     </div>
-  </body>
+
+    <div class="background">
+        <div class="layer"></div>
+        <div id="top"></div>
+        <div id="bottom"></div>
+    </div>
+
+    <div id="logo">
+        <img src="images/logo.jpg" alt="logo">
+        <span>PHYPHER</span>
+    </div>
+
+    <div class="core">
+        <div class="title">
+            <h1>Hello There!!</h1>
+        </div>
+
+        <div class="subtitle">
+            <h4>I'm Sanskar Pandey, A Web Developer Love to revolve around the designs. Apply into The Reality</h4>
+        </div>
+
+        <button class="resume">Get Resume</button>
+    </div>
+
+    <div class="social">
+        <a id="github" href="https://github.com/sanskar127"><i class="fa-brands fa-github"></i><span>Github</span></a>
+        <a id="linkedin" href="https://www.linkedin.com/in/sanskar-p-71898b123/"><i class="fa-brands fa-linkedin-in"></i><span>Linkedin</span></a>
+        <a id="discord" href="https://discordapp.com/users/574862025516122123"><i class="fa-brands fa-discord"></i><span>Discord</span></a>
+        <a id="mail" href="mailto:sanskarpandey281@gmail.com"><i class="fa-solid fa-envelope"></i><span>Gmail</span></a>
+    </div>
+
+</body>
+
 </html>

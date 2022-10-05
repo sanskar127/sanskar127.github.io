@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Varela&display=swap');
+
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/Proxima-Nova.otf")
+  }
+
+:root {
+    --color1: #3c3c3c;
+    --color2: #252526;
+    --color3: #2d2d2d;
+    --color4: #1e1e1e;
+    --color5: #37373d;
+    --color6: #333333;
+    --color7: #16825d;
+    --color8: #007acc;
+    --color9: #999999;
+}
+
+/* My Logo */
+
+#logo {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    margin: 25px;
+    max-width: fit-content;
+    align-items: center;
+}
+
+#logo span {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 27px;
+    padding-left: 15px;
+    color: #ffff;
+    font-weight: bold;
+}
+
+/* Social Links */
+
+.social {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 25px;
+    bottom: 0;
+}
+
+.social a {
+    color: #ffff;
+    font-size: 20px;
+    padding: 7px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#discord:hover {
+    color: #5865f2;
+}
+#github:hover {
+    color: #b4b4b4;
+}
+#linkedin:hover {
+    color: #0c64c5;
+}
+#mail:hover {
+    color: #f54a3b;
+}
+
+.social span {
+    display: none;
+}
