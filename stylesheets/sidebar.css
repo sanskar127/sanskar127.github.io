@@ -1,4 +1,5 @@
 .sidebar{
+    display: none;
     background: #1e1e1e99;
     position: fixed;
     left: 0;
@@ -20,10 +21,12 @@
     width: 100%;
     flex-direction: row;
     justify-content: center;
+    transition: 0.4s;
 }
 
 .sidebar a i:hover {
-    background-color: red;
+    background-color: #ffffff26;
+    backdrop-filter: blur(5px);
 }
 
 .sidebar-items {

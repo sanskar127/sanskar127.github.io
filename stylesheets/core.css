@@ -21,12 +21,13 @@
 }
 
 .core h4 {
+    margin-left: 8px;
+    margin-top: 30px;
     font-weight: 400;
 }
 
 .resume {
     background-color: #1e1e1e;
-    color: #ffff;
     width: 132px;
     /* Flexbox Start */
     justify-content: center;
@@ -36,10 +37,14 @@
     border: 3px solid #1b1b1b;
     border-radius: 8px;
     padding: 12px 15px;
+}
+
+.resume a, .resume a:visited, .resume a:active {
+    text-decoration: none;
+    color: #fff;
     transition: 0.2s;
 }
 
-.resume:hover {
+.resume a:hover {
     color: #9e9e9e;
-    cursor: pointer;
 }
